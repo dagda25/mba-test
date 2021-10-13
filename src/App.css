@@ -1,0 +1,43 @@
+.main-page {
+  max-width: 1286px;
+  margin: 0 auto;
+}
+
+.programs-title {
+  font-size: 2.25rem;
+  text-align: center;
+  margin-bottom: 5.5rem;
+  margin-top: 4.5rem;
+}
+
+.error {
+  font-size: 2.25rem;
+  color: #ff3535;
+  text-align: center;
+}
+
+.loading {
+  font-size: 2.25rem;
+  color: #000;
+  text-align: center;
+}
+
+@media screen and (max-width: 375px) {
+  .main-page {
+    width: 100%;
+    min-width: 100%;
+    padding: 0 4%;
+  }
+
+  .programs {
+    width: 92%;
+  }
+
+  .programs-title {
+    font-size: 1.75rem;
+    text-align: left;
+    margin-bottom: 34px;
+    margin-top: 28px;
+    font-weight: 500;
+  }
+}
